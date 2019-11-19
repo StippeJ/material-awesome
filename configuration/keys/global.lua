@@ -360,7 +360,7 @@ local globalKeys =
     {modkey},
     'e',
     function()
-      awful.util.spawn_with_shell('ibus emoji')
+      awful.util.spawn(apps.default.files)
     end,
     {description = 'Open the ibus emoji picker to copy an emoji to your clipboard', group = 'hotkeys'}
   )
