@@ -355,14 +355,30 @@ local globalKeys =
       awful.util.spawn_with_shell('vm-attach attach')
     end
   ),
-  -- Emoji picker
+   -- Lutris hotkey
+  awful.key(
+    {modkey},
+    'g',
+    function()
+      awful.util.spawn_with_shell('lutris')
+    end
+  ),
+  -- System Monitor hotkey - MATE version
+  awful.key(
+    {modkey},
+    'm',
+    function()
+      awful.util.spawn_with_shell('mate-system-monitor')
+    end
+  ),
+  -- File Manager
   awful.key(
     {modkey},
     'e',
     function()
       awful.util.spawn(apps.default.files)
     end,
-    {description = 'Open the ibus emoji picker to copy an emoji to your clipboard', group = 'hotkeys'}
+    {description = 'Default File Manager launch', group = 'hotkeys'}
   )
 )
 
