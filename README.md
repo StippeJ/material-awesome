@@ -25,6 +25,7 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
 - __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
+- (Recommended) [pa-applet](https://github.com/fernandotcl/pa-applet) for an audiocontroll applet in the systray.
 - (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
