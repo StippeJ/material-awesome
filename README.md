@@ -19,14 +19,14 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 
 ### 1) Get all the dependencies
 - [AwesomeWM](https://awesomewm.org/) as the window manager
-- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
+- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font** - ttf-roboto
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
-- [Compton fork](https://github.com/tryone144/compton) for the compositor (blur and animations)
-- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
+- [Compton](https://github.com/tryone144/compton) for the compositor (blur and animations)
+- [i3lock](https://github.com/meskarune/i3lock-fancy) the lockscreen application
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
-- __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
-- (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
-- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
+- __gnome-keyring__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
+- (Optional) __qt5-styles-gtk2__ or __qt5-styleplugins-git__ for making QT and KDE applications look the same as gnome applications
+- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme - Arch = materia-theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
 - (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
