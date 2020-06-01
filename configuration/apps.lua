@@ -26,9 +26,11 @@ return {
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
+    -- 'xinput set-prop 13 355 1', -- Enable tapping for touchpad
+    -- 'xinput set-prop 13 339 1', -- Enable natural scrolling for touchpad
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet --indicator', -- wifi
-    'pa-applet', -- shows an audiocontrol applet in systray when installed.
+    --'pa-applet', -- shows an audiocontrol applet in systray when installed.
     --'blueberry-tray', -- Bluetooth tray icon
     --'xfce4-power-manager', -- Power manager
     'ibus-daemon --xim', -- Ibus daemon for keyboard
