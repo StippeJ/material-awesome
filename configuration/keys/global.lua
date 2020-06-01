@@ -288,9 +288,17 @@ local globalKeys =
     {},
     'XF86AudioMute',
     function()
-      awful.spawn('amixer -D pulse set Master 1+ toggle')
+      awful.spawn('amixer -D pulse set Master toggle')
     end,
     {description = 'toggle mute', group = 'hotkeys'}
+  ),
+  awful.key(
+    {},
+    'XF86AudioMicMute',
+    function()
+      awful.spawn('amixer -D pulse set Capture toggle')
+    end,
+    {description = 'toggle mute for mic', group = 'hotkeys'}
   ),
   awful.key(
     {},
