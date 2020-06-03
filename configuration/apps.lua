@@ -26,6 +26,7 @@ return {
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
+    -- 'xrandr --output HDMI-1 --mode 1920x1080 --rate 74.99', -- Adjust display settings
     -- 'xinput set-prop 13 355 1', -- Enable tapping for touchpad
     -- 'xinput set-prop 13 339 1', -- Enable natural scrolling for touchpad
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
